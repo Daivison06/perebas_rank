@@ -2,21 +2,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def set_css_to_head():
-    st.markdown("""
-        <style>
-            header{
-                background: transparent;
-            }
-            .stApp {
-                background-color: #0e1117;
-            }
-            /* Você pode adicionar mais estilos personalizados aqui se necessário */
-        </style>
-    """, unsafe_allow_html=True)
-
-set_css_to_head()
-
 csv_url = 'https://docs.google.com/spreadsheets/d/1KWAHg3Bzj1gZwNSo08ertGWfdIznhqrZfiYolz6ykxA/gviz/tq?tqx=out:csv&sheet=0'
 
 # Use pandas to read the CSV file directly from the Google Sheets public URL
