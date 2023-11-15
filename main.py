@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-csv_url = 'https://docs.google.com/spreadsheets/d/1KWAHg3Bzj1gZwNSo08ertGWfdIznhqrZfiYolz6ykxA/gviz/tq?tqx=out:csv&sheet=0'
+csv_url = 'https://docs.google.com/spreadsheets/d/1mqFNGx9cRjZBqvW7EXWaPBAQakRMtVN6Zgk5HEZ4PnE/gviz/tq?tqx=out:csv&sheet=0'
 
 # Use pandas to read the CSV file directly from the Google Sheets public URL
 data = pd.read_csv(csv_url)
