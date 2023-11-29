@@ -25,7 +25,7 @@ fig.patch.set_facecolor('none')
 bars = ax.barh(mean_df_sorted['Nome'], mean_df_sorted['Média'], color='yellow')
 ax.set_title('Média das Avaliações por Nome', color='white')
 
-ax.set_yticklabels(mean_df_sorted['Nome'], va='center', ha='left', position=(-0.18,0))
+ax.set_yticklabels(mean_df_sorted['Nome'], va='center', ha='left', position=(-0.21,0))
 
 for bar, ranking in zip(bars, mean_df_sorted['Ranking']):
     width = bar.get_width()
