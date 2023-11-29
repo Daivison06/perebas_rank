@@ -44,3 +44,4 @@ ax.yaxis.set_ticks_position('none')
 ax.grid(False)
 
 st.pyplot(fig, transparent=True)
+
